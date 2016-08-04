@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+
+  <AddIn Type="Application">
+    <Name>Thesis Application</Name>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>2FA83FFE-D212-40B8-B490-6C0EE0B85EC4</AddInId>
+    <FullClassName>UIRibbon</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Start Server</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>C10A3718-59BB-450D-B65A-A0EBE8C24114</AddInId>
+    <FullClassName>StartServer</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Stop Server</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>5E0E1D4A-6328-43CE-9994-471AFB12A799</AddInId>
+    <FullClassName>StopServer</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Call Get Elements</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>50A10D59-DEEC-47D4-8B31-125D4CD72664</AddInId>
+    <FullClassName>GetElements</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Call Get Materials</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>A96FA655-88C7-4848-BEB8-028BCD9B02C1</AddInId>
+    <FullClassName>GetMaterials</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Call Get Model Info</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>4D2F1704-CB4B-41FC-9AF7-05552510EA22</AddInId>
+    <FullClassName>GetModelInfo</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+
+  <AddIn Type="Command">
+    <Text>Launch TCP Server</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>169B89D8-1065-4A47-A471-F2633D4566D6</AddInId>
+    <FullClassName>LaunchTCP</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Listen TCP Requests</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>FB116E97-A785-4AE3-B462-137291C79B0A</AddInId>
+    <FullClassName>ListenRequest</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Stop TCP Server</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>9E1A0A0C-2A22-46F5-A2CF-EF2DC76C0D18</AddInId>
+    <FullClassName>StopTCPServer</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>  
+  
+  <AddIn Type="Command">
+    <Text>Get Element Info - TCP</Text>
+    <Assembly>
+      C:\Dev\DISS\RevitAddin\bin\Debug\DISS_Addin.dll
+    </Assembly>
+    <AddInId>54A506D6-5618-4F06-BB62-09FD0D478C3E</AddInId>
+    <FullClassName>GetElementInfo</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn> 
+  
+  
+</RevitAddIns>
